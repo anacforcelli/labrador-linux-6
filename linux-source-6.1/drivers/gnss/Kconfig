@@ -65,4 +65,15 @@ config GNSS_USB
 
 	  If unsure, say N.
 
+config GNSS_SPI
+	tristate "SPI GNSS receiver support"
+	depends on SPI
+	help
+	  Say Y here if you have a GNSS receiver which uses a SPI interface.
+
+	  To compile this driver as a module, choose M here: the module will
+	  be called gnss-spi.
+
+	  If unsure, say N.
+
 endif # GNSS
