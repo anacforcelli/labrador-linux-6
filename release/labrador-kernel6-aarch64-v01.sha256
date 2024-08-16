@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 03b493a2247bf3812c2c95e14166353107e08b6d0f339af44b91fc274b64aa3a  labrador-kernel6-aarch64-v01.tar.gz
 =======
 cdc982c413f696ab1ba9ede06bf3b58e16fe8cdc091787187e84a2265825fd0c  labrador-kernel6-aarch64-v01.tar.gz
@@ -15,3 +16,6 @@ caf2facab8344cc0006088d0840b1762d5410ff55bf31714f95e896cbb8162ea  labrador-kerne
 =======
 03e9cd662edc9e68b4e752674ab292384cb756c59902eb2becd1dd708f5c0446  labrador-kernel6-aarch64-v01.tar.gz
 >>>>>>> 9b602c338 (Enabled kernel modules used by docker (arm64).)
+=======
+354d208fedf52b55b0a9b2caeef8ad97fd7ab4b9511f5972600671d484c7d344  labrador-kernel6-aarch64-v01.tar.gz
+>>>>>>> 1c30e838a (Enabled more kernel modules used by docker (arm64).)
