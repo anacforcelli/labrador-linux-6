@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 42c504f58f5475d12c33ee8b02c3dc9309e61a292e65975a3304ddf8850df170  labrador-kernel6-armhf-v01.tar.gz
+=======
+d0562ea9e18b229872d87ae8be782b7eaab8a3f82d9018ea9f6a9825a462f55b  labrador-kernel6-armhf-v01.tar.gz
+>>>>>>> d8c21da97 (rtl8723bs driver rolled back to kernel version 5.14)
