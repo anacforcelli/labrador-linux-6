@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 03b493a2247bf3812c2c95e14166353107e08b6d0f339af44b91fc274b64aa3a  labrador-kernel6-aarch64-v01.tar.gz
 =======
 cdc982c413f696ab1ba9ede06bf3b58e16fe8cdc091787187e84a2265825fd0c  labrador-kernel6-aarch64-v01.tar.gz
@@ -23,3 +24,6 @@ caf2facab8344cc0006088d0840b1762d5410ff55bf31714f95e896cbb8162ea  labrador-kerne
 =======
 70685be0f30b6e2ca244760b6cb20840001c5ed2fed0e551ee090b05c83aedab  labrador-kernel6-aarch64-v01.tar.gz
 >>>>>>> d8c21da97 (rtl8723bs driver rolled back to kernel version 5.14)
+=======
+4dc2c49a1d7550c4cc1d525e7f9069e0a3494049c337f16c7623ec431b3dbfe0  labrador-kernel6-aarch64-v01.tar.gz
+>>>>>>> dd23948c2 (Updated 64bit kernel binaries.)
