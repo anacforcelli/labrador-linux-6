@@ -369,7 +369,7 @@
 			dma-names = "hdmi-tx";
 			clocks = <&cmu CLK_AUDIO_PLL>, <&cmu CLK_HDMI_AUDIO>;
 			clock-names = "audio-pll", "hdmia";
-			status = "disabled";
+			status = "okay";
 		};
 		
 		vdc: vdc@0xe02e0000 {

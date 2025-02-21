@@ -1302,12 +1302,12 @@ static int caninos_mmc_probe(struct platform_device *pdev)
 	mmc->caps |= MMC_CAP_UHS_SDR12 | MMC_CAP_SDIO_IRQ;
 	
 	mmc->caps2 = MMC_CAP2_NO_WRITE_PROTECT | MMC_CAP2_BOOTPART_NOACC;
-	
+	/* These lines may reduce system reliability
 	if (priv->model == MMC_HW_MODEL_K7) {
 		mmc->caps |= MMC_CAP_1_8V_DDR | MMC_CAP_8_BIT_DATA;
 		mmc->caps |= MMC_CAP_UHS_DDR50 | MMC_CAP_UHS_SDR25;
 	}
-	
+	*/
 	priv->ops.request   = caninos_mmc_request;
 	priv->ops.set_ios   = caninos_mmc_set_ios;
 	priv->ops.card_busy = caninos_mmc_card_busy;
