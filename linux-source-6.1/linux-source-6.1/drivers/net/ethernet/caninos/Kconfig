@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: GPL-2.0
+
+config CANINOS_K5_ETHERNET
+	tristate "Caninos K5 Ethernet Media Access Controller"
+	depends on ARM && (ARCH_CANINOS || COMPILE_TEST)
+	default ARCH_CANINOS && ARM
+	select PHYLIB
+	help
+	  This driver supports the Ethernet Media Access
+	  Controller (EMAC) found on the K5 SBC.  The controller
+	  is compliant with the IEEE 802.3 CSMA/CD standard and supports
+	  both half-duplex and full-duplex operation modes at 10/100 Mb/s.
+
